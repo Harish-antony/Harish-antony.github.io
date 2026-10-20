@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 // For GitHub Pages project sites, set base to '/<repo-name>/' before building.
 export default defineConfig({
   plugins: [react()],
-  base: process.env.GITHUB_PAGES ? '/harish-portfolio/' : './',
+  base: './',
   build: {
     target: 'es2019',
     cssCodeSplit: false,
