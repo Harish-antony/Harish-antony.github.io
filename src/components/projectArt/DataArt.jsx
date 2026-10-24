@@ -23,15 +23,15 @@ export default function DataArt() {
         <svg viewBox={`0 0 ${w} ${h}`} className="data-line" preserveAspectRatio="none">
           <defs>
             <linearGradient id="dataFill" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stopColor="#c6f135" stopOpacity="0.28" />
-              <stop offset="100%" stopColor="#c6f135" stopOpacity="0" />
+              <stop offset="0%" stopColor="#e0486e" stopOpacity="0.28" />
+              <stop offset="100%" stopColor="#e0486e" stopOpacity="0" />
             </linearGradient>
           </defs>
           <polygon points={area} fill="url(#dataFill)" />
           <polyline
             points={path}
             fill="none"
-            stroke="#c6f135"
+            stroke="#e0486e"
             strokeWidth="2"
             strokeLinejoin="round"
             strokeLinecap="round"

@@ -62,7 +62,7 @@ harish-portfolio/
 |---|---|---|
 | Background | `#06090f` → `#0d1424` | layered midnight navy |
 | Text | `#edf1f9` / `#93a1b8` | warm off-white + muted |
-| Accent | `#c6f135` | electric lime (CTAs, highlights) |
+| Accent | `#e0486e` | wine red (CTAs, highlights) |
 | Accent 2 | `#6fd3e7` | muted cyan (secondary art) |
 | Display | Space Grotesk (variable) | headings |
 | Body | Inter (variable) | paragraphs |

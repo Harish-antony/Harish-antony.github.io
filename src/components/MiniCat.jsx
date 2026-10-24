@@ -90,9 +90,6 @@ export default function MiniCat() {
                   tabIndex={open ? 0 : -1}
                   onClick={() => navigate(link.id)}
                 >
-                  <span className="cat-link-index" aria-hidden="true">
-                    {String(i + 1).padStart(2, '0')}
-                  </span>
                   {link.label}
                   {active === link.id && (
                     <span className="cat-link-here" aria-hidden="true">
@@ -145,12 +142,12 @@ export default function MiniCat() {
           <g className="cat-head">
             <path className="cat-ear cat-ear--l" d="M31 34 L35 12 L51 26 Z" fill="url(#catGrad)" />
             <path className="cat-ear cat-ear--r" d="M75 34 L71 12 L55 26 Z" fill="url(#catGrad)" />
-            <path className="cat-ear-inner" d="M36 29 L38.5 18 L46 25.5 Z" fill="#c6f135" opacity="0.55" />
-            <path className="cat-ear-inner" d="M70 29 L67.5 18 L60 25.5 Z" fill="#c6f135" opacity="0.55" />
+            <path className="cat-ear-inner" d="M36 29 L38.5 18 L46 25.5 Z" fill="#e0486e" opacity="0.55" />
+            <path className="cat-ear-inner" d="M70 29 L67.5 18 L60 25.5 Z" fill="#e0486e" opacity="0.55" />
             <ellipse cx="53" cy="50" rx="25" ry="22" fill="url(#catGrad)" />
 
             {/* forehead stripes */}
-            <path d="M47 31 l2 5 M53 30 l0 5 M59 31 l-2 5" stroke="#c6f135" strokeWidth="1.6" strokeLinecap="round" opacity="0.4" fill="none" />
+            <path d="M47 31 l2 5 M53 30 l0 5 M59 31 l-2 5" stroke="#e0486e" strokeWidth="1.6" strokeLinecap="round" opacity="0.4" fill="none" />
 
             {/* eyes — open (blinking) */}
             <g className="cat-eyes-open">
@@ -170,7 +167,7 @@ export default function MiniCat() {
             </g>
 
             {/* nose + mouth */}
-            <path d="M51 56 L55 56 L53 59 Z" fill="#c6f135" />
+            <path d="M51 56 L55 56 L53 59 Z" fill="#e0486e" />
             <path d="M53 59 q-2.5 3.5 -6 2.5 M53 59 q2.5 3.5 6 2.5" fill="none" stroke="#8fa0bb" strokeWidth="1.3" strokeLinecap="round" />
 
             {/* whiskers */}
@@ -178,8 +175,8 @@ export default function MiniCat() {
           </g>
 
           {/* collar */}
-          <path d="M40 70 q13 7 26 0 l-1.5 5 q-11.5 5.5 -23 0 Z" fill="#c6f135" />
-          <circle cx="53" cy="77" r="2.4" fill="#e9f8bd" />
+          <path d="M40 70 q13 7 26 0 l-1.5 5 q-11.5 5.5 -23 0 Z" fill="#e0486e" />
+          <circle cx="53" cy="77" r="2.4" fill="#f6c6d3" />
         </svg>
       </button>
     </div>

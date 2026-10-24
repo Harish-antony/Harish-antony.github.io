@@ -42,6 +42,7 @@ export default function Contact() {
     <section id="contact" className="section section--contact" aria-labelledby="contact-title">
       <div className="container">
         <SectionHeader
+          index="06"
           kicker="Contact"
           id="contact-title"
           title={

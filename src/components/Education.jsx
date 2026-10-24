@@ -7,6 +7,7 @@ export default function Education() {
     <section id="education" className="section section--education" aria-labelledby="education-title">
       <div className="container">
         <SectionHeader
+          index="05"
           kicker="Education & Certifications"
           id="education-title"
           title={

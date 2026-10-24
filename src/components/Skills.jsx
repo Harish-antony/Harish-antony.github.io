@@ -6,6 +6,7 @@ export default function Skills() {
     <section id="skills" className="section section--skills" aria-labelledby="skills-title">
       <div className="container">
         <SectionHeader
+          index="02"
           kicker="Technical Skills"
           id="skills-title"
           title={
@@ -24,7 +25,7 @@ export default function Skills() {
               data-reveal
             >
               <p className="skill-group-head">
-                <span className="skill-group-bullet" aria-hidden="true" />
+                <span className="skill-group-index">{group.index}</span>
                 {group.title}
               </p>
               <ul className="skill-list">

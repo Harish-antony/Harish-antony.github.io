@@ -14,6 +14,7 @@ export default function About() {
     <section id="about" className="section section--about" aria-labelledby="about-title">
       <div className="container">
         <SectionHeader
+          index="01"
           kicker="About"
           id="about-title"
           title={
@@ -57,17 +58,14 @@ export default function About() {
 
             <div className="about-approach" aria-label="How I work">
               <div className="approach-step">
-                <span className="approach-dot" aria-hidden="true" />
                 <h3>Understand</h3>
                 <p>Start from the actual problem, not the stack.</p>
               </div>
               <div className="approach-step">
-                <span className="approach-dot" aria-hidden="true" />
                 <h3>Build</h3>
                 <p>Schema, API, interface — designed to work together.</p>
               </div>
               <div className="approach-step">
-                <span className="approach-dot" aria-hidden="true" />
                 <h3>Ship</h3>
                 <p>Deploy it, hand it over, keep improving it.</p>
               </div>

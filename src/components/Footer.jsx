@@ -43,9 +43,6 @@ export default function Footer() {
 
       <div className="container footer-base">
         <p>© {year} Harish A. All rights reserved.</p>
-        <a className="footer-top" href="#home">
-          Back to top ↑
-        </a>
       </div>
     </footer>
   )

@@ -7,6 +7,7 @@ export default function Experience() {
     <section id="experience" className="section section--experience" aria-labelledby="experience-title">
       <div className="container">
         <SectionHeader
+          index="04"
           kicker="Experience"
           id="experience-title"
           title={

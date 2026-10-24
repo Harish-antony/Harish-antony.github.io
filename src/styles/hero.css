@@ -38,7 +38,7 @@
   height: 420px;
   left: -190px;
   top: 0;
-  background: rgba(198, 241, 53, 0.04);
+  background: rgba(224, 72, 110, 0.04);
 }
 
 .hero-glow--cyan {
@@ -106,7 +106,7 @@
 .hero-title em {
   font-style: normal;
   color: var(--accent);
-  background-image: linear-gradient(transparent 68%, rgba(198, 241, 53, 0.28) 68%);
+  background-image: linear-gradient(transparent 68%, rgba(224, 72, 110, 0.28) 68%);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -198,7 +198,7 @@
   top: 7%;
   right: 12%;
   background: var(--accent);
-  box-shadow: 0 0 18px rgba(198, 241, 53, 0.7);
+  box-shadow: 0 0 18px rgba(224, 72, 110, 0.7);
 }
 
 .orbit-node--b {
@@ -222,7 +222,7 @@
   inset: 0;
   border: 1px solid var(--line);
   border-radius: var(--radius-lg);
-  background: linear-gradient(160deg, rgba(198, 241, 53, 0.09), rgba(111, 211, 231, 0.05) 70%);
+  background: linear-gradient(160deg, rgba(224, 72, 110, 0.09), rgba(111, 211, 231, 0.05) 70%);
   transform: translate(16px, 16px) rotate(1.8deg);
 }
 

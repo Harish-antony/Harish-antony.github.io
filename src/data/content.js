@@ -16,7 +16,7 @@ export const PROFILE = {
   phoneHref: 'tel:+917448475909',
   github: 'https://github.com/Harish-antony',
   linkedin: 'https://linkedin.com/in/harish-antony-6b6a62303',
-  resume: '/Harish_A_Resume.pdf',
+  resume: './Harish_A_Resume.pdf',
 }
 
 export const NAV_LINKS = [

@@ -205,7 +205,7 @@
 
 .pipe-node--accent {
   color: var(--accent);
-  border-color: rgba(198, 241, 53, 0.4);
+  border-color: rgba(224, 72, 110, 0.4);
 }
 
 .pipe-node--cyan {
@@ -263,7 +263,7 @@
   text-transform: uppercase;
   color: var(--accent);
   background: var(--bg0);
-  border: 1px solid rgba(198, 241, 53, 0.4);
+  border: 1px solid rgba(224, 72, 110, 0.4);
   border-radius: 999px;
   padding: 2px 9px;
 }
@@ -365,7 +365,7 @@
   letter-spacing: 0.14em;
   text-transform: uppercase;
   font-weight: 600;
-  color: #0a0f18;
+  color: #ffffff;
   background: var(--accent);
   border-radius: 7px;
   padding: 9px;
@@ -579,7 +579,7 @@
   text-transform: uppercase;
   color: var(--accent);
   background: rgba(10, 15, 24, 0.88);
-  border: 1px solid rgba(198, 241, 53, 0.4);
+  border: 1px solid rgba(224, 72, 110, 0.4);
   border-radius: 999px;
   padding: 5px 11px;
   z-index: 2;
